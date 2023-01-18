@@ -1,1 +1,3 @@
-This is a test for Remix defer that works now.
+This a bug repo for Remix defer
+
+Comment out `serverDependenciesToBundle: [/.*/]` in `remix.config.js` and defer would work as expected.
